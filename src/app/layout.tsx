@@ -15,6 +15,15 @@ const lora = Lora({
 export const metadata: Metadata = {
   title: "Nutrimize | Home Made Baby Food with Love",
   description: "Home made baby food products with love! Let's make our children healthy! Place your order today.",
+  icons: {
+    icon: "/logo.jpg",
+    apple: "/logo.jpg",
+  },
+  openGraph: {
+    title: "Nutrimize | Home Made Baby Food with Love",
+    description: "Home made baby food products with love! Let's make our children healthy!",
+    images: ["/logo.jpg"],
+  },
 };
 
 export default function RootLayout({

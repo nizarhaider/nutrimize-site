@@ -11,6 +11,7 @@ export default function Home() {
         <div className="container">
           <div className={styles.navContent}>
             <div className={styles.logo}>
+              <Image src="/logo.jpg" alt="Nutrimize Logo" width={50} height={50} className={styles.logoImage} />
               <h1 className="font-serif">Nutrimize</h1>
             </div>
             <div className={styles.navLinks}>
@@ -174,7 +175,10 @@ export default function Home() {
       <footer className={styles.footer}>
         <div className={`container ${styles.footerGrid}`}>
           <div>
-            <h2 className="font-serif">Nutrimize</h2>
+            <div className={styles.footerLogo}>
+              <Image src="/logo.jpg" alt="Nutrimize Logo" width={60} height={60} className={styles.logoImage} />
+              <h2 className="font-serif">Nutrimize</h2>
+            </div>
             <p>Home made baby food products with love! Let's make our children healthy.</p>
           </div>
           <div>
