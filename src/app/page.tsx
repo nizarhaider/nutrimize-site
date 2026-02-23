@@ -86,10 +86,9 @@ export default function Home() {
           </div>
           <div className={styles.productGrid}>
             {[
-              { name: "Organic Apple & Oats Mash", stage: "Stage 1 (6+ months)", desc: "Smooth and easily digestible.", image: "/product1.jpg" },
-              { name: "Carrot & Sweet Potato Puree", stage: "Stage 1 (6+ months)", desc: "Rich in vitamin A for eye health.", image: "/product2.jpg" },
-              { name: "Spinach, Pea & Pear Blend", stage: "Stage 2 (8+ months)", desc: "A tasty way to introduce greens.", image: "/product3.jpg" },
-              { name: "Multigrain Berry Porridge", stage: "Stage 3 (10+ months)", desc: "Hearty and fulfilling energy booster.", image: "/product4.jpg" }
+              { name: "Multi Grain Cereal", stage: "Stage 1 (6+ months)", desc: "Smooth and easily digestible.", image: "/product1.jpg" },
+              { name: "Unsalted Sprats Powder", stage: "Stage 1 (6+ months)", desc: "Rich in calcium for strong bones.", image: "/product2.jpg" },
+              { name: "Date Syrup", stage: "Stage 2 (8+ months)", desc: "A tasty way to sweeten your baby's food.", image: "/product3.jpg" },
             ].map((prod, i) => (
               <div key={i} className={styles.productCard}>
                 <div className={styles.productImageWrapper}>

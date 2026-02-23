@@ -110,10 +110,9 @@ _Sent via Nutrimize Website_`;
                                             value={formData.product}
                                             onChange={(e) => setFormData({ ...formData, product: e.target.value })}
                                         >
-                                            <option>Organic Apple & Oats Mash</option>
-                                            <option>Carrot & Sweet Potato Puree</option>
+                                            <option>Multi Grain Cereal</option>
+                                            <option>Unsalted Sprats Powder</option>
                                             <option>Spinach, Pea & Pear Blend</option>
-                                            <option>Multigrain Berry Porridge</option>
                                         </select>
                                     </div>
                                     <div className={styles.formGroup}>
